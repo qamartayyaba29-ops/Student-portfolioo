@@ -1,0 +1,87 @@
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+    ), url("https://placehold.co/1600x600?text=Online+Shopping");
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+/* Product Cards */
+.product-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+    height: 120%;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.product-card img {
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.price {
+    color: #e67e22;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Buttons */
+.btn-dark {
+    border-radius: 5px;
+}
+
+.btn-warning {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    margin-top: 0px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 15px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
+
+   

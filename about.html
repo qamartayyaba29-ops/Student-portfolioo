@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us </title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .about-hero {
+            background: linear-gradient(
+                rgba(0,0,0,0.7),
+                rgba(0,0,0,0.7)
+            ), url("https://placehold.co/1600x600?text=About+Tayyaba Mart");
+
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .about-hero h1 {
+            font-size: 45px;
+            font-weight: bold;
+        }
+
+        .about-section {
+            padding: 60px 0;
+        }
+
+        .about-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            height: 100%;
+            transition: 0.3s;
+        }
+
+        .about-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .about-card h3 {
+            color: #e67e22;
+            font-weight: bold;
+        }
+
+        .about-text {
+            line-height: 1.8;
+            font-size: 17px;
+        }
+
+        .btn-warning {
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 0;
+        }
+
+        @media(max-width: 768px) {
+            .about-hero h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="index.html">
+            Tayyaba Mart
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#products">
+                        Products
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contact">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="about-hero">
+    <div class="container">
+        <h1>About Tayyaba Mart</h1>
+
+        <p class="fs-5">
+            Your Trusted Online Shopping Partner
+        </p>
+
+        <a href="index.html#products"
+           class="btn btn-warning btn-lg mt-3">
+            Explore Products
+        </a>
+    </div>
+</section>
+
+<!-- About Us Section -->
+<section class="about-section">
+    <div class="container">
+
+        <div class="row align-items-center g-4">
+
+            <div class="col-md-6">
+                <h2 class="fw-bold mb-4">Who We Are</h2>
+
+                <p class="about-text">
+                    Welcome to Tayyaba Mart! We are an online shopping
+                    store dedicated to providing quality products
+                    at affordable prices.
+                </p>
+
+                <p class="about-text">
+                    Our store offers a variety of products including
+                    headphones, smart watches, sports shoes and bags.
+                    We aim to make your shopping experience simple,
+                    convenient and enjoyable.
+                </p>
+
+                <p class="about-text">
+                    At Tayyaba Mart, customer satisfaction and product
+                    quality are our top priorities.
+                </p>
+
+            </div>
+
+            <div class="col-md-6">
+                <img src="./products-removebg-preview.png"
+                     class="img-fluid rounded shadow"
+                     alt="ShopEase Online Shopping">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Mission and Vision -->
+<section class="bg-light py-5">
+    <div class="container">
+
+        <h2 class="text-center fw-bold mb-5">
+            Our Mission & Vision
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-6">
+                <div class="about-card text-center">
+
+                    <h3>Our Mission</h3>
+
+                    <p class="mt-3">
+                        Our mission is to provide high-quality
+                        products at reasonable prices and make
+                        online shopping easy and accessible
+                        for everyone.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="about-card text-center">
+
+                    <h3>Our Vision</h3>
+
+                    <p class="mt-3">
+                        Our vision is to become a trusted online
+                        shopping platform by offering excellent
+                        products, great value and a better
+                        shopping experience.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Us -->
+<section class="about-section">
+    <div class="container">
+
+        <h2 class="text-center fw-bold mb-5">
+            Why Choose Tayyaba Mart?
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="about-card text-center">
+                    <h3>Quality Products</h3>
+                    <p>
+                        We focus on providing quality products
+                        for our customers.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="about-card text-center">
+                    <h3>Affordable Prices</h3>
+                    <p>
+                        Shop your favorite products at
+                        affordable prices.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="about-card text-center">
+                    <h3>Easy Shopping</h3>
+                    <p>
+                        Enjoy a simple and convenient
+                        online shopping experience.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="bg-light py-5 text-center">
+    <div class="container">
+
+        <h2 class="fw-bold">Want to Know More?</h2>
+
+        <p class="mt-3">
+            Feel free to contact us for any questions.
+        </p>
+
+        <a href="index.html#contact"
+           class="btn btn-warning btn-lg">
+            Contact Us
+        </a>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">
+        &copy; 2026 Tayyaba Mart. All Rights Reserved.
+    </p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
